@@ -22,11 +22,13 @@ console.log(list);
 	
 // }
 let i = 0
+let item = document.querySelector(`ul`);
 while (i < list.length) {
     
 
     const element = list[i];
-    console.log(element);
+    // console.log(element);
+    item.innerHTML += `<li>${element}</li>`;
 
     i++;
 
